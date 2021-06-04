@@ -17,6 +17,8 @@ main() {
   //要创建一个空集，使用前面带有类型参数的 {} ，或者将 {} 赋值给 Set 类型的变量：
   var names = <String>{};
   // Set<String> names = {}; // 这样也是可以的。
+  // Set names2 = <String>{};// 这样也是可以的。
+
   // var names = {}; // 这样会创建一个 Map ，而不是 Set 。
 
   //使用 add() 或 addAll() 为已有的 Set 添加元素：
