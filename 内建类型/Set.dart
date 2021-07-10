@@ -18,9 +18,8 @@ main() {
   var names = <String>{};
   // Set<String> names = {}; // 这样也是可以的。
   // Set names2 = <String>{};// 这样也是可以的。
-
   // var names = {}; // 这样会创建一个 Map ，而不是 Set 。
-
+  // Set<String> names2 = Set<String>();
   //使用 add() 或 addAll() 为已有的 Set 添加元素：
   var elements = <String>{};
   elements.add('fluorine');

@@ -185,6 +185,12 @@ class Logger {
   }
 }
 
+//构造函数大括号代表实例化时传入一个对应的对象
+class Test {
+  final title;
+  Test({this.title});
+}
+
 main() {
   var point = new Point(1, 2);
   print(point.x);
@@ -218,4 +224,7 @@ main() {
   print(logger);
   print(Logger._cache);
   logger.log('Button clicked');
+
+  Test test = new Test(title: 111);
+  print(test.title);
 }

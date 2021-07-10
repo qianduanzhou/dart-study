@@ -14,6 +14,7 @@ enum Color { red, green, blue }
  * 枚举不能被显式实例化。
  */
 main() {
+    print(Color.red);
   /**
    * 枚举中的每个值都有一个 index getter 方法， 该方法返回值所在枚举类型定义中的位置（从 0 开始）。 
    * 例如，第一个枚举值的索引是 0 ， 第二个枚举值的索引是 1。
