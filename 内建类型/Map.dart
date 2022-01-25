@@ -6,7 +6,7 @@
  * Dart 中 Map 通过 Map 字面量 和 Map 类型来实现。
  */
 main() {
-  var gifts = {
+  Map<String, String> gifts = {
     // Key:    Value
     'first': 'partridge',
     'second': 'turtledoves',
